@@ -1,0 +1,83 @@
+# ==========================================
+# RA3-Deferred-Render .gitignore
+# Rule: Ignore ALL non-code files (EXE tools, images, compiled binaries, temp caches)
+# ==========================================
+
+# 1. Readonly Archives & Scratch Directories
+readonly/
+outdated/
+scratch/
+build/
+out/
+stage/
+FXO/
+
+# 2. Executable Tools & Native Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.pdb
+*.idb
+*.i64
+*.til
+*.nam
+
+# 3. Compiled Shader Outputs, Object Files & Temp Disassembly/Caches
+*.fxo
+*.obj
+*.o
+*.asm
+*.cod
+*.bin
+*.cache
+*.tmp
+*.temp
+*.log
+*.bak
+*.orig
+
+# 4. Images, Textures & Captures
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tga
+*.dds
+*.webp
+*.ico
+*.tif
+*.tiff
+*.svg
+*.psd
+*.hdr
+*.exr
+*.rdc
+*.pix
+*.PixRun
+*.trace
+
+# 5. Game Archives, Packages & OS Shortcuts
+*.big
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.vsix
+*.lnk
+*.url
+
+# 6. OS / IDE Metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
