@@ -19,8 +19,10 @@
 
 GitHub 读者可直接点击以下链接查看原版渲染管线分析成果：
 
-- 📊 **[交互式 HTML 图表：`RA3 Render Pipeline VRAM control.html`](diagrams/RA3%20Render%20Pipeline%20VRAM%20control.html)**
-  - 原版每帧 `RenderTarget` / `DepthStencilSurface` 显存生命周期、状态流转与 `Pass` 拓扑交互式视图（克隆到本地后双击即可在浏览器中打开；GitHub 在线浏览可查看源码或配合 HTML Preview 工具打开）。
+- 📊 **交互式 HTML 图表：`RA3 Render Pipeline VRAM control.html`**
+  - 🌐 **[点击在线预览渲染网页 (HTMLPreview)](https://htmlpreview.github.io/?https://github.com/NordlichtS/RA3-Deferred-Render/blob/master/diagrams/RA3%20Render%20Pipeline%20VRAM%20control.html)** ｜ **[备用在线预览 (GitHack)](https://raw.githack.com/NordlichtS/RA3-Deferred-Render/master/diagrams/RA3%20Render%20Pipeline%20VRAM%20control.html)** *(注：需仓库为 Public)*
+  - 🚀 **[GitHub Pages 官方渲染地址](https://nordlichts.github.io/RA3-Deferred-Render/diagrams/RA3%20Render%20Pipeline%20VRAM%20control.html)** *(在仓库 `Settings → Pages` 将 Branch 设为 `master / (root)` 后生效)*
+  - 📄 **[查看仓库内源码文件](diagrams/RA3%20Render%20Pipeline%20VRAM%20control.html)**（克隆到本地后双击即可在浏览器打开原版每帧 `RenderTarget` / `DepthStencilSurface` 显存生命周期与 `Pass` 拓扑交互式视图）。
 - 📖 **[原版管线事实基准：`vanilla-pipeline-reference.md`](diagrams/vanilla-pipeline-reference.md)**
   - 逐 `Pass` 拆解 `main/ingame.scrapeo` 的 `Camera`、`VisibleSet`、`RenderBin` 提交顺序与引擎 C++ 绑定契约。
 - 📐 **[VRAM 生命线矩阵设计规范：`design-B-vram-lifeline-matrix.md`](diagrams/design-B-vram-lifeline-matrix.md)**
